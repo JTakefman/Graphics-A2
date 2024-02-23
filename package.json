@@ -1,0 +1,15 @@
+{
+  "name": "curves-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tubes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.161.0"
+  }
+}

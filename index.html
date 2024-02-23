@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <!-- 
+ ==========================================================================
+ $Id: tubes.html,v 1.1 2019/02/03 03:43:07 jlang Exp $
+ Simple html page to experiment with Three.js 
+ ==========================================================================
+ (C)opyright:
+
+   Jochen Lang
+   EECS, University of Ottawa
+   800 King Edward Ave.
+   Ottawa, On., K1N 6N5
+   Canada.
+   http:www.eecs.uottawa.ca
+
+ Creator: jlang (Jochen Lang)
+ Email:   jlang@uottawa.ca
+ ==========================================================================
+ $Log: tubes.html,v $
+ Revision 1.1  2019/02/03 03:43:07  jlang
+ Created lab3 solution
+
+ 
+ ========================================================================== 
+-->
+<html>
+  <head>
+    <title>CSI4130 Laboratory 3</title>
+    <style>
+        body {
+            /* set margin to 0 and overflow to hidden, to go fullscreen */
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+        "three": "../../node_modules/three/build/three.module.js",
+        "three/addons/": "../../node_modules/three/examples/jsm/",
+        "dat.gui": "../../node_modules/dat.gui/build/dat.gui.module.js"
+        }
+      }
+      </script>
+</head>
+  <body>	
+    <script type=module src="tubes.js"></script>
+  </body>
+</html>
